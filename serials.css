@@ -20,7 +20,7 @@ body{
 }
 .main2{
 	width: 800px;
-	margin: 60px auto;
+	margin: 60px auto 0 auto;
 	float: none;
 }
 .menu{
@@ -44,6 +44,7 @@ body{
 	border-radius: 20px;
 }
 .namep{
+	font-weight: 700;
 	transition: 0.5s;
 	background: linear-gradient(to right, #F0EAD6, #20B2AA); 
 	-webkit-background-clip: text; 
@@ -128,17 +129,60 @@ h2{
 	padding: 15px;
 	border-radius: 35px;
 }
-a{
+.header, .footer{
+	border: 2px solid #F08948;
+}
+.texta{
 	text-decoration: none;
-	background: linear-gradient(to left, #FDB4B4, #fff); 
+	background: linear-gradient(to right, #F06A17, #F4D85B, #F06A17); 
 	-webkit-background-clip: text; 
 	-webkit-text-fill-color: transparent;
 	font-weight: 700;
 	transition: 1s;
 }
-a:hover{
+.texta:hover{
 	text-decoration: underline;
 	text-decoration-color: white;
 	font-size: 17px;
 	font-weight: 800;
+}
+.reitung{
+	
+	background: linear-gradient(to left, #F4DC6F, #F06A17); 
+	-webkit-background-clip: text; 
+	-webkit-text-fill-color: transparent;
+	font-weight: 800;
+}
+.reitung2{
+	background: linear-gradient(to right, #943EFF, #008EFF); 
+	-webkit-background-clip: text; 
+	-webkit-text-fill-color: transparent;
+	font-weight: 800;
+}
+
+.texta2{
+	text-decoration: none;
+	background: linear-gradient(to left, #943EFF, #008EFF); 
+	-webkit-background-clip: text; 
+	-webkit-text-fill-color: transparent;
+	font-weight: 700;
+	transition: 1s;
+}
+.texta2:hover{
+	text-decoration: underline;
+	text-decoration-color: white;
+	font-size: 17px;
+	font-weight: 800;
+}
+.footer{
+	background-color: #000;
+	height: 120px;
+	padding: 10px 10px 0 10px;
+	border-radius: 30px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.footer p{
+	text-align: center;
+	text-indent: 15px;
 }
