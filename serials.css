@@ -12,7 +12,6 @@ body{
 }
 .main{
 	margin: 0 auto;
-	text-align: justify;
 	font-family: Verdana, sans-serif;
 	margin-top: 20px;
 	text-align: justify;
@@ -21,7 +20,6 @@ body{
 .main2{
 	width: 800px;
 	margin: 60px auto 0 auto;
-	float: none;
 }
 .menu{
 	height: 105px;
@@ -129,7 +127,7 @@ h2{
 	padding: 15px;
 	border-radius: 35px;
 }
-.header, .footer{
+.header{
 	border: 2px solid #F08948;
 }
 .texta{
@@ -143,7 +141,6 @@ h2{
 .texta:hover{
 	text-decoration: underline;
 	text-decoration-color: white;
-	font-size: 17px;
 	font-weight: 800;
 }
 .reitung{
@@ -171,18 +168,29 @@ h2{
 .texta2:hover{
 	text-decoration: underline;
 	text-decoration-color: white;
-	font-size: 17px;
 	font-weight: 800;
 }
 .footer{
 	background-color: #000;
-	height: 120px;
-	padding: 10px 10px 0 10px;
-	border-radius: 30px;
+	height: 100px;
 	margin-top: 20px;
-	margin-bottom: 30px;
+	font-family: Verdana, sans-serif;
+	color: #F0EAD6;
+	padding: 35px;
 }
 .footer p{
 	text-align: center;
-	text-indent: 15px;
+}
+.texta3{
+	text-decoration: none;
+	background: linear-gradient(to left, #943EFF, #F09350); 
+	-webkit-background-clip: text; 
+	-webkit-text-fill-color: transparent;
+	transition: 1s;
+	font-weight: 600;
+}
+.texta3:hover{
+	text-decoration: underline;
+	text-decoration-color: white;
+	font-weight: 700;
 }
