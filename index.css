@@ -188,4 +188,7 @@ body{
 /*.one{
 	float: left; /*Почему???*/
 /*}*/
+.eleven, .twelve{
+	margin-bottom: 30px;
+}
 
