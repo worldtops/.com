@@ -32,13 +32,40 @@ body{
 .sub1menu{
 	position: absolute;
 	display: none;
+	border-radius: 20px;
+	background-color: #2A2020;
 }
 .kat:hover .sub1menu{
 	display: block;
 	overflow: hidden;
-	background-color: #000;
+	width: 24%;
 }
-
+/*.lione{
+	border-radius: 20px 20px 0 0;
+}                             ???????????????
+.lithree{
+	border-radius: 0 0 20px 20px;
+}*/
+.kat:hover .sub1menu li{
+	display: block;
+	width: 100%;
+}
+.leftsub1menu{
+	font-weight: 700;
+	transition: 0.5s;
+	background: linear-gradient(to right, #F0EAD6, #20B2AA); 
+	-webkit-background-clip: text; 
+	-webkit-text-fill-color: transparent;
+}
+.leftsub1menu:hover{
+	font-size: 18px;
+	box-shadow:  0 0 30px 10px rgba(132,72,52,0.5);
+	background: linear-gradient(to left, #943EFF, #008EFF); 
+	-webkit-background-clip: text; 
+	-webkit-text-fill-color: transparent;
+	border: 1px solid #FDE2A2;
+	border-radius: 20px;
+}
 .nameh1{
 	background: linear-gradient(to left, #943EFF, #008EFF); 
 	-webkit-background-clip: text; 
@@ -104,9 +131,6 @@ body{
 	text-decoration: none;
 	display: block;
 }
-/*.rightauthor{
-	float: right;
-}*/
 .textmain{
 	color: #fff;
 	border: 5px solid rgba(244,202,22, 0.5);
