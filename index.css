@@ -226,7 +226,7 @@ body{
 /*}*/
 .footer{
 	background-color: #000;
-	margin-top: 50px;
+	margin-top: 20px;
 	font-family: Arial, sans-serif;
 	color: #fff;
 	padding: 30px;
@@ -274,5 +274,5 @@ body{
 .divgif{
 	width: 100%;
 	margin: 0 auto;
-	height: 50px;
+	height: 30px;
 }
