@@ -252,47 +252,48 @@ ul{
 	.header, .footeliborder{
 		display: none;
 	}
+	.content{
+		margin: 30px 0;
+	}
 	.footerlist li{
 		width: 40%;
 	}
 	.content li{
-		width: 545px;
+		width: 40%;
 	}
 	.jpg{
-		width: 485px;
+		width: 100%;
 		margin: 20px auto;
-		height: 315px;
+		height: 75%;
+	}
+	.serials{
+		width: 80%;
+		text-align: center;
+		margin: 0 auto;
 	}
 }
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1120px) {
 	.site{
 		display: none;
 	}
 	.mainlist > li, .kat{
-	width: 33%;
+		width: 33%;
 	}
 	.content li{
-		width: 510px;
+		width: 40%;
 	}
 	.jpg{
-		width: 425px;
+		width: 100%;
 		margin: 20px auto;
-		height: 285px;
+		height: 75%;
+	}
+	.serials{
+		width: 90%;
+		margin: 30px auto;
 	}
 }
 
-@media screen and (max-width: 1078px) {
-
-	.content li{
-		width: 490px;
-	}
-	.jpg{
-		width: 415px;
-		margin: 20px auto;
-		height: 275px;
-	}
-}
 @media screen and (max-width: 1026px) {
 	.content li{
 		width: 100%
@@ -305,23 +306,38 @@ ul{
 	}
 	.serials{
 		width: 85%;
-		text-align: center;
-		margin: 0 auto;
+	}
+}
+@media screen and (max-width: 764px) {
+	.nameh1{
+		font-size: 21px;
+	}
+	.namep{
+		font-size: 15px;
+	}
+	.nameh1:hover{
+		font-size: 23px;
+	}
+	.namep:hover{
+		font-size: 17px;
+	}
+	.jpg{
+		height: 70%;
+	}
+
+}
+@media screen and (max-width: 640px) {
+	.nameh1{
+		font-size: 17px;
+	}
+	.namep{
+		font-size: 12px;
+	}
+	.nameh1:hover{
+		font-size: 19px;
+	}
+	.namep:hover{
+		font-size: 14px;
 	}
 }
 
-@media screen and (max-width: 540px) {
-	.content li{
-		width: 100%
-	}
-	.jpg{
-		width: 80%;
-		margin: 50px auto;
-		height: 100px;
-	}
-	.serials{
-		width: 85%;
-		text-align: center;
-		margin: 0 auto;
-	}
-}
