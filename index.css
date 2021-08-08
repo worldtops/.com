@@ -321,10 +321,10 @@ ul{
 }
 @media screen and (max-width: 640px) {
 	.nameh1{
-		font-size: 17px;
+		font-size: 18px;
 	}
 	.namep{
-		font-size: 12px;
+		font-size: 13px;
 	}
 	.nameh1:hover{
 		font-size: 19px;
