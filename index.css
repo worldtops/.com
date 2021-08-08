@@ -314,10 +314,10 @@ ul{
 }
 @media screen and (max-width: 640px) {
 	.content li{
-		width: 500px;
+		width: 530px;
 	}
 	.jpg{
-		width: 425px;
+		width: 455px;
 		margin: 20px auto;
-		height: 275px;
+		height: 295px;
 	}
